@@ -1,347 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
-    <link rel="stylesheet" href="style.css">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Bryan Mureithi</title>
-</head>
-<body class="bg-[#E0E1DD]">
+  </head>
+  <body class="bg-[#E0E1DD]">
     <!--Navigation Bar-->
     <header class="flex flex-row justify-between items-center px-12 shadow-md">
-        <!--Logo-->
-        <img src="assets/logo.png" alt="Logo" class="h-24"><button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-          </button>
+      <!--Logo-->
+      <img src="assets/logo.png" alt="Logo" class="h-24" /><button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg
+          class="w-6 h-6"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
 
-        <nav>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="flex flex-row items-center space-x-12">
-                    <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
-                        <a href="#Home" class="block">Home</a>
-                    </li>
-                    <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
-                        <a href="#about" class="block">About Me</a>
-                    </li>
-                    <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
-                        <a href="#services" class="block">Services</a>
-                    </li>
-                    <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
-                        <a href="#portfolio" class="block">Portfolio</a>
-                    </li>
-                    <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
-                        <a href="#Home" class="block">Contact Me</a>
-                    </li>
-                    <a href="#contactUs" class="block bg-[#1B263B] hover:bg-[#415A77] text-[#E0E1DD] text-xs px-3 py-2">START A PROJECT</a>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul class="flex flex-row items-center space-x-12">
+            <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
+              <a href="#Home" class="block">Home</a>
+            </li>
+            <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
+              <a href="#about" class="block">About Me</a>
+            </li>
+            <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
+              <a href="#services" class="block">Services</a>
+            </li>
+            <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
+              <a href="#portfolio" class="block">Portfolio</a>
+            </li>
+            <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
+              <a href="#Home" class="block">Contact Me</a>
+            </li>
+            <a
+              href="#contactUs"
+              class="block bg-[#1B263B] hover:bg-[#415A77] text-[#E0E1DD] text-xs px-3 py-2"
+              >START A PROJECT</a
+            >
+          </ul>
+        </div>
+      </nav>
     </header>
     <main class="shadow-sm">
-        <!--Hero Section-->
-        <!--Used grids for this section to separate text from the image-->
-        <div class="grid grid-cols-4 gap-0 px-12">
-            <div class="col-start-1 col-span-2 p-6 mt-16 pt-10">
-                <h1 class="text-[#1B263B] w-96 font-semibold text-3xl">I create experiences that make people's lives simple.</h1>
-                <p class="mt-4 text-md w-8/12 text-[#415A77]">Hi, I’m Bryan, an aspiring Data Scientist and Front-end Web Developer. I help fast growing startups to launch and grow their brands.</p>
-                <div class="mt-12 flex flex-row items-center space-x-8">
-                    <a href="#contactUs" class="bg-[#1B263B] hover:bg-[#415A77] text-[#E0E1DD] text-sm px-5 py-3">Hire Me</a>
-                    <a href="#contactUs" class="bg-transparent text-[#1B263B] text-sm p-3 border border-gray-500 hover:bg-[#1B263B] hover:text-[#E0E1DD]">CONSULT FOR FREE</a>
-                </div>
-                <div class="mt-12">
-                    <a href="https://twitter.com/BryanMurei">
-                        <ion-icon name="logo-twitter" class="w-10 h-8 mr-3 text-[#1B263B] hover:text-[#415A77]"></ion-icon>
-                    </a>
-                    <a href="https://www.linkedin.com/in/bryan-mureithi-237b33225/">
-                        <ion-icon name="logo-linkedin" class="w-10 h-8 mr-3 text-[#1B263B] hover:text-[#415A77]"></ion-icon>
-                    </a>
-                    <a href="https://github.com/BryanMureithi">
-                        <ion-icon name="logo-github" class="w-10 h-8 text-[#1B263B] hover:text-[#415A77]"></ion-icon>
-                    </a>
-                </div>
-            </div>
-            <div class="col-start-3 col-span-2">
-                <!--Hero Image-->
-                <div class="pb-8">
-                    <img src="assets/coding.svg" class="dev w-full h-1/6" alt="Programmer">
-                </div>
-            </div>
+      <!--Hero Section-->
+      <!--Used grids for this section to separate text from the image-->
+      <div class="grid grid-cols-4 gap-0 px-12">
+        <div class="col-start-1 col-span-2 p-6 mt-16 pt-10">
+          <h1 class="text-[#1B263B] w-96 font-semibold text-3xl">
+            I create experiences that make people's lives simple.
+          </h1>
+          <p class="mt-4 text-md w-8/12 text-[#415A77]">
+            Hi, I’m Bryan, an aspiring Data Scientist and Front-end Web
+            Developer. I help fast growing startups to launch and grow their
+            brands.
+          </p>
+          <div class="mt-12 flex flex-row items-center space-x-8">
+            <a
+              href="#contactUs"
+              class="bg-[#1B263B] hover:bg-[#415A77] text-[#E0E1DD] text-sm px-5 py-3"
+              >Hire Me</a
+            >
+            <a
+              href="#contactUs"
+              class="bg-transparent text-[#1B263B] text-sm p-3 border border-gray-500 hover:bg-[#1B263B] hover:text-[#E0E1DD]"
+              >CONSULT FOR FREE</a
+            >
+          </div>
+          <div class="mt-12">
+            <a href="https://twitter.com/BryanMurei">
+              <ion-icon
+                name="logo-twitter"
+                class="w-10 h-8 mr-3 text-[#1B263B] hover:text-[#415A77]"
+              ></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/bryan-mureithi-237b33225/">
+              <ion-icon
+                name="logo-linkedin"
+                class="w-10 h-8 mr-3 text-[#1B263B] hover:text-[#415A77]"
+              ></ion-icon>
+            </a>
+            <a href="https://github.com/BryanMureithi">
+              <ion-icon
+                name="logo-github"
+                class="w-10 h-8 text-[#1B263B] hover:text-[#415A77]"
+              ></ion-icon>
+            </a>
+          </div>
         </div>
+        <div class="col-start-3 col-span-2">
+          <!--Hero Image-->
+          <div class="pb-8">
+            <img
+              src="assets/coding.svg"
+              class="dev w-full h-1/6"
+              alt="Programmer"
+            />
+          </div>
+        </div>
+      </div>
     </main>
 
     <section id="about" class="mt-16 px-12 mb-16 shadow-sm">
-        <div class="">
-            <h2 class="text-xl font-semibold text-[#1B263B]">ABOUT ME</h2>
-            <p class="font-semibold text-[#415A77]">Read about my history.</p>
-        </div>
-        <div class="mb-12 shadow-sm">
-            <section class="bg-[#E0E1DD]">
-                <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-                    <div class="hidden lg:mt-0 lg:col-span-5 lg:flex mr-12">
-                       <img src="assets/bryan.jpg" alt="" class="w-full">
-                    </div>
-                    <div class="mr-auto place-self-center lg:col-span-7">
-                       <p class="text-md text-[#415A77] w-12/12 leading-loose">I am currently a student at the Catholic University of Eastern Africa, pursuing
-                         a Bachelor's degree in Computer Science. My coursework has provided me with a strong
-                          foundation in programming languages such as Java and Python, as well as exposure to databases,
-                           software engineering, and computer networks. Additionally, I have gained experience through
-                            internships and projects, such as developing a web-based application for a local business or
-                             participating in hackathons. Through these experiences, I have honed my problem-solving skills,
-                              ability to work in a team, and ability to adapt to new technologies. Furthermore, I am skilled
-                               in UI/UX design, front-end web development, which has helped me to create elegant and user-friendly web applications.
-                                I am excited to continue my education and to apply my knowledge and skills in the field of computer science.</p>
-                    </div>                
-                </div>
-            </section>
-        </div>
-        <div class="flex flex-row justify-between">
-            <div>
-                <h2 class="text-2xl font-semibold text-[#1B263B]">Qualifications</h2>
-                <ol class="relative border-l border-gray-700 mt-12">
-                    <li class="mb-10 ml-4">
-                        <div class="absolute w-3 h-3 bg-[#1B263B] rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                        <time class="mb-1 text-sm font-normal leading-none text-[#415A77]">September 2020 - April 2024</time>
-                        <h3 class="text-lg font-semibold text-gray-900">Catholic University of Eastern Africa</h3>
-                        <p class="mb-4 text-base font-normal text-[#415A77]">Bachelors of Science in Computer Science</p>
-                    </li>                  
-                    <li class="mb-10 ml-4">
-                        <div class="absolute w-3 h-3 bg-[#1B263B] rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                        <time class="mb-1 text-sm font-normal leading-none text-[#415A77]">Feb 2016 - December 2019</time>
-                        <h3 class="text-lg font-semibold text-gray-900">High School</h3>
-                        <p class="mb-4 text-base font-normal text-[#415A77]">Kenya Certificate of Secondary Education ( K.C.S.E )</p>                        
-                    </li>
-                </ol>
+      <div class="">
+        <h2 class="text-xl font-semibold text-[#1B263B]">ABOUT ME</h2>
+        <p class="font-semibold text-[#415A77]">Read about my history.</p>
+      </div>
+      <div class="mb-12 shadow-sm">
+        <section class="bg-[#E0E1DD]">
+          <div
+            class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+          >
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex mr-12">
+              <img src="assets/bryan.jpg" alt="" class="w-full" />
             </div>
-            <div class="sm:ml-8">
-                <h2 class="text-2xl font-semibold text-[#1B263B]">Experience</h2>
-                <ol class="relative border-l border-gray-700 mt-12">                  
-                    <li class="mb-10 ml-4">
-                        <div class="absolute w-3 h-3 bg-[#1B263B] rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                        <time class="mb-1 text-sm font-normal leading-none text-[#415A77]">May 2021 - August 2021</time>
-                        <h3 class="text-lg font-semibold text-gray-900">Ralphowino Consulting</h3>
-                        <p class="mb-4 text-base font-normal text-[#415A77]">Gained skills in UI/UX design, front-end Web Development and Project Management.</p>
-                    </li>
-                    <li class="mb-10 ml-4">
-                        <div class="absolute w-3 h-3 bg-[#1B263B] rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                        <time class="mb-1 text-sm font-normal leading-none text-[#415A77]">September 2022 to present</time>
-                        <h3 class="text-lg font-semibold text-gray-900">Fourth Profile</h3>
-                        <p class="text-base font-normal text-[#415A77]">In charge of creating and implementing designs on different UI elements using Figma and Vue JS.</p>
-                    </li>
-                    <li class="ml-4 mb-8">
-                        <div class="absolute w-3 h-3 bg-[#1B263B] rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                        <time class="mb-1 text-sm font-normal leading-none text-[#415A77]">April 2022 - Present</time>
-                        <h3 class="text-lg font-semibold text-gray-900">Freelance</h3>
-                        <p class="text-base font-normal text-[#415A77]">Doing projects for different clients from the internet.</p>
-                    </li>
-                </ol>
-            </div>
-        </div>
-        
-    </section>
-
-    <section id="services" class="mt-16 px-12 mb-16 shadow-sm">
-        <div>
-            <h2 class="text-xl font-semibold text-[#1B263B]">SERVICES</h2>
-            <p class="font-semibold text-[#415A77]">Discover the services that I have to offer.</p>
-                    
-            <div class="mt-10 mb-4 border-b border-gray-700">
-                <ul class="flex flex-wrap justify-center -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
-                    <li class="mr-2" role="presentation">
-                        <button class="inline-block p-4 rounded-t-lg border-b-2 text-[#415A77] hover:text-[#1B263B] border-[#1B263B]" id="profile-tab" data-tabs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="true">Front-end Web Development</button>
-                    </li>
-                    <li class="mr-2" role="presentation">
-                        <button class="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-[#1B263B] hover:border-gray-700 text-[#415A77] border-gray-700" id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">UI/UX Design</button>
-                    </li>
-                </ul>
-            </div>
-            <div id="myTabContent">
-                <div class="p-4 rounded-lg bg-[#0D1B2A]" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <div class="grid grid-cols-4 gap-0">
-                        <div class="col-start-1 col-span-2 p-6 mt-12">
-                            <h1 class="text-white w-96 font-semibold text-2xl">Front-end Web Development</h1>
-                            <p class="mt-4 w-10/12 text-gray-400">
-                                As a front-end web developer, I can help your business by designing,
-                                developing, and maintaining a visually appealing, responsive and user-friendly
-                                 website that will help drive more traffic, engagement and conversions to your business.
-                            </p>
-                            <div class="mt-8 flex flex-row items-center">
-                                <ion-icon name="checkmark-circle-outline" class="text-[#415A77] mr-3"></ion-icon>
-                                <span class="text-gray-300 text-sm">Web Design</span>
-                            </div>
-                            <div class="mt-4 flex flex-row items-center">
-                                <ion-icon name="checkmark-circle-outline" class="text-[#415A77] mr-3"></ion-icon>
-                                <span class="text-gray-300 text-sm">Web Development</span>
-                            </div>
-                            <div class="mt-4 flex flex-row items-center">
-                                <ion-icon name="checkmark-circle-outline" class="text-[#415A77] mr-3"></ion-icon>
-                                <span class="text-gray-300 text-sm">Website Maintenance</span>
-                            </div>
-                            <div class="mt-10">
-                                <a href="#contactUs" class="bg-transparent text-white text-sm p-3 border border-gray-500 hover:bg-[#415A77]">START CONVERSATION</a>
-                            </div>
-                        </div>
-                        <div class="col-start-3 col-span-2">
-                            <div class="mt-12">
-                                <img src="assets/handcoding.svg" alt="Programmer" class="w-10/12 h-1/6">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hidden rounded-lg dark:bg-[#0D1B2A]" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
-                    <div class="grid grid-cols-4 gap-0">
-                        <div class="col-start-1 col-span-2 px-12 pt-8 mt-12">
-                            <h1 class="text-white w-96 font-semibold text-3xl">Build Your Brand.</h1>
-                            <p class="mt-8 text-md w-10/12 text-gray-400">
-                                I can help your business by creating intuitive and visually
-                                 appealing interfaces that will enhance the user experience, increase
-                                  engagement, and drive conversions for your website or mobile app.</p>
-                            <div class="mt-8 flex flex-row items-center">
-                                <ion-icon name="checkmark-circle-outline" class="text-[#415A77] mr-3"></ion-icon>
-                                <span class="text-gray-300 text-sm">Website Design</span>
-                            </div>
-                            <div class="mt-4 flex flex-row items-center">
-                                <ion-icon name="checkmark-circle-outline" class="text-[#415A77] mr-3"></ion-icon>
-                                <span class="text-gray-300 text-sm">Mobile Designs</span>
-                            </div>
-                            <div class="mt-4 flex flex-row items-center">
-                                <ion-icon name="checkmark-circle-outline" class="text-[#415A77] mr-3"></ion-icon>
-                                <span class="text-gray-300 text-sm">Logo Designs</span>
-                            </div>
-                            <div class="mt-12">
-                                <a href="#contactUs" class="bg-transparent text-white text-sm p-3 border border-gray-500 hover:bg-[#415A77]">START CONVERSATION</a>
-                            </div>
-                        </div>
-                        <div class="col-start-3 col-span-2">
-                            <div class="mt-12">
-                                <img src="assets/design.svg" alt="Programmer" class="w-10/12 h-1/6">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
-    <section id="projects" class="mt-16 p-12 mb-16">
-        <div class="mb-8">
-            <h2 class="text-xl font-semibold text-[#1B263B]">PROJECTS</h2>
-            <p class="font-semibold text-[#415A77]">These are some of my projects.</p>
-        </div>
-        <div class="bg-white">
-            <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
-              <div>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Fourth Profile</h2>
-                <p class="mt-4 text-gray-500">Fourth Profile connects students and working professionals to colleges/universities globally
-                    Whether you're looking for your dream institution and course, or you’re an admission officer or student recruiter, and you want to promote your institution courses, Fourth Profile is here to help.</p>
-          
-                <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-                  <div class="border-t border-gray-200 pt-4">
-                    <dt class="font-medium text-gray-900">Role</dt>
-                    <dd class="mt-2 text-sm text-gray-500">UI/UX Designer</dd>
-                  </div>
-          
-                  <div class="border-t border-gray-200 pt-4">
-                    <dt class="font-medium text-gray-900">Project Type</dt>
-                    <dd class="mt-2 text-sm text-gray-500">UI/UX Design</dd>
-                  </div>
-          
-                  <div class="border-t border-gray-200 pt-4">
-                    <dt class="font-medium text-gray-900">Tools</dt>
-                    <dd class="mt-2 text-sm text-gray-500">Figma</dd>
-                  </div>
-          
-                  <div class="border-t border-gray-200 pt-4">
-                    <dt class="font-medium text-gray-900">Languages</dt>
-                    <dd class="mt-2 text-sm text-gray-500">Vue JS, Tailwind CSS and HTML</dd>
-                  </div>
-          
-                  <div class="border-t border-gray-200 pt-4">
-                    <dt class="font-medium text-gray-900">Includes</dt>
-                    <dd class="mt-2 text-sm text-gray-500">REFERENCES ARE AVAILABLE UPON REQUEST</dd>
-                  </div>
-
-                  <div class="border-t border-gray-200 pt-4">
-                    <dt class="font-medium text-gray-900">Links</dt>
-                    <dd class="mt-2 text-sm text-gray-500">
-                        <a href="https://fourthprofile.com/" class="hover:text-blue-500">Fourth Profile</a>
-                    </dd>
-                  </div>
-
-
-                </dl>
-              </div>
-              <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-                <img src="assets/sc1.png" alt="Walnut card tray with white powder coated steel divider and 3 punchout holes." class="rounded-lg bg-gray-100">
-                <img src="assets/sc2.png" alt="Top down view of walnut card tray with embedded magnets and card groove." class="rounded-lg bg-gray-100">
-                <img src="assets/sc3.png" alt="Side of walnut card tray with card groove and recessed card area." class="rounded-lg bg-gray-100">
-                <img src="assets/sc4.png" alt="Walnut card tray filled with cards and card angled in dedicated groove." class="rounded-lg bg-gray-100">
-              </div>
+            <div class="mr-auto place-self-center lg:col-span-7">
+              <p class="text-md text-[#415A77] w-12/12 leading-loose">
+                I am currently a student at the Catholic University of Eastern
+                Africa, pursuing a Bachelor's degree in Computer Science. My
+                coursework has provided me with a strong foundation in
+                programming languages such as Java and Python, as well as
+                exposure to databases, software engineering, and computer
+                networks. Additionally, I have gained experience through
+                internships and projects, such as developing a web-based
+                application for a local business or participating in hackathons.
+                Through these experiences, I have honed my problem-solving
+                skills, ability to work in a team, and ability to adapt to new
+                technologies. Furthermore, I am skilled in UI/UX design,
+                front-end web development, which has helped me to create elegant
+                and user-friendly web applications. I am excited to continue my
+                education and to apply my knowledge and skills in the field of
+                computer science.
+              </p>
             </div>
           </div>
+        </section>
+      </div>
+      <div class="flex justify-between gap-6">
+        <div class="sm:ml-8">
+          <h2 class="text-2xl font-semibold text-[#1B263B]">Experience</h2>
+          <ol class="relative border-l border-gray-700 mt-12">
+            <li class="mb-10 ml-4 hover:bg-[#c7c8c4] p-5">
+              <div
+                class="absolute w-3 h-3 bg-[#1B263B] rounded-full mt-1.5 -left-1.5 border border-white"
+              ></div>
+              <time class="mb-1 text-sm font-normal leading-none text-[#415A77]"
+                >May 2021 - August 2021</time
+              >
+              <h3 class="text-lg font-semibold text-gray-900">
+                Ralphowino Consulting
+              </h3>
+              <h3 class="font-semi-bold text-gray-700">Intern</h3>
+
+              <p class="mb-4 text-base w-9/12 font-normal text-[#415A77]">
+                Trained on UI/UX design by creating wireframes and designs using
+                Figma and Adobe XD. Also created projects using Vue JS, Tailwind
+                CSS and GraphQL. Trained on how to debug and correct errors in
+                different projects. Learned how to use user stories and
+                pseudocodes to help in developing a system.
+              </p>
+            </li>
+            <li class="mb-10 ml-4 hover:bg-[#c7c8c4] p-5">
+              <div
+                class="absolute w-3 h-3 bg-[#1B263B] rounded-full mt-1.5 -left-1.5 border border-white"
+              ></div>
+              <time class="mb-1 text-sm font-normal leading-none text-[#415A77]"
+                >September 2022 to present</time
+              >
+              <h3 class="text-lg font-semibold text-gray-900">
+                Fourth Profile
+              </h3>
+              <h3 class="font-semi-bold text-gray-700">
+                UI/UX designer & Front-end developer
+              </h3>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                Created designs for different elements needed for the project on
+                Figma. Implemented the Figma designs using Vue JS and Tailwind
+                CSS.
+              </p>
+            </li>
+            <li class="ml-4 mb-8 hover:bg-[#c7c8c4] p-5">
+              <div
+                class="absolute w-3 h-3 bg-[#1B263B] rounded-full mt-1.5 -left-1.5 border border-white"
+              ></div>
+              <time class="mb-1 text-sm font-normal leading-none text-[#415A77]"
+                >2 May 2023 - 31 July 2023</time
+              >
+              <h3 class="text-lg font-semibold text-gray-900">
+                Kenya Power and Lighting Company
+              </h3>
+              <h3 class="font-semi-bold text-gray-700">ICT Intern</h3>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                Learnt about the Network Operations Centre(NOC) where all
+                networks, servers routers, switches and the data centre are
+                monitored. Did ICT support tasks where I helped out staff with
+                issues concerning computer hardware or software. Visited a data
+                center which has the servers containing data crucial to the
+                company.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="bg-transparent">
+      <div class="mx-auto px-8 max-w-screen-xl sm:py-16">
+        <div class="max-w-screen-md mb-8 lg:mb-16">
+          <h2 class="mb-4 text-xl tracking-tight font-extrabold text-[#1B263B]">
+            Skills
+          </h2>
+          <p class="text-gray-500 font-semibold">
+            Here's what I can do to showcase my skillset and profession.
+          </p>
+        </div>
+        <div
+          class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
+        >
+          <div class="hover:bg-[#c7c8c4] border border-gray-400 rounded-md p-5">
+            <div
+              class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
+            >
+              <svg
+                class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="mb-2 text-xl font-bold text-[#1B263B]">UI/UX Design</h3>
+            <p class="text-gray-500">
+              With a keen eye for aesthetics and user experience, I specialize
+              in creating intuitive and visually pleasing user interfaces. I
+              have experience conducting user research, creating wireframes, and
+              designing interactive prototypes.
+            </p>
+          </div>
+          <div class="hover:bg-[#c7c8c4] border border-gray-400 rounded-md p-5">
+            <div
+              class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
+            >
+              <svg
+                class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="mb-2 text-xl font-bold text-[#1B263B]">
+              Front-end Web Development
+            </h3>
+            <p class="text-gray-500">
+              As a front-end web developer, I excel in creating engaging,
+              responsive and user-friendly interfaces using HTML, CSS, and
+              JavaScript. I have a deep understanding of modern web development
+              frameworks and libraries such as Vue JS and React JS.
+            </p>
+          </div>
+          <div class="hover:bg-[#c7c8c4] border border-gray-400 rounded-md p-5">
+            <div
+              class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12"
+            >
+              <svg
+                class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+                <path
+                  d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"
+                ></path>
+              </svg>
+            </div>
+            <h3 class="mb-2 text-xl font-bold text-[#1B263B]">
+              Fullstack Web Development
+            </h3>
+            <p class="text-gray-500">
+              As a full-stack web developer, I have expertise in both front-end
+              and back-end development. I am proficient in languages such as
+              JavaScript, Python, and PHP, and frameworks like Laravel and
+              Django.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section class="bg-transparent antialiased">
+      <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
+        <div class="max-w-2xl mx-auto text-center">
+          <h2
+            class="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl"
+          >
+            My work
+          </h2>
+          <p class="mt-4 text-base font-normal text-gray-500 sm:text-xl">
+            Crafted with skill and care to help our clients grow their business!
+          </p>
+        </div>
+
+        <div
+          class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="space-y-4">
+            <span
+              class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded"
+            >
+              Bryan Mureithi.
+            </span>
+            <h3 class="text-xl font-bold leading-tight text-gray-700">
+              Official website
+            </h3>
+            <p class="font-normal text-gray-500">
+              Showcases all my skills and all projects that I have been able to
+              design and develop.
+            </p>
+            <a
+              href="#"
+              title=""
+              class="text-gray-200 bg-[#1B263B] justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+              role="button"
+            >
+              View case study
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5 ml-2 -mr-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div class="space-y-4">
+            <span
+              class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded"
+            >
+              SwiftTasks
+            </span>
+            <h3 class="text-xl font-bold leading-tight text-gray-700">
+              Todo App
+            </h3>
+            <p class="font-normal text-gray-500">
+              SwiftTasks helps you plan out your day and helps you become
+              productive by setting tasks to do.
+            </p>
+            <a
+              href="#"
+              title=""
+              class="text-gray-200 bg-[#1B263B] justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+              role="button"
+            >
+              View case study
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5 ml-2 -mr-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div class="space-y-4">
+            <span
+              class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded"
+            >
+              Fourth Profile
+            </span>
+            <h3 class="text-xl font-bold leading-tight text-gray-700">
+              UI/UX Design/ Front-end
+            </h3>
+            <p class="font-normal text-gray-500">
+              Fourth Profile helps people easily find and apply to universities
+              and colleges all over the world.
+            </p>
+            <a
+              href="#"
+              title=""
+              class="text-gray-200 bg-[#1B263B] justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+              role="button"
+            >
+              View case study
+              <svg
+                aria-hidden="true"
+                class="w-5 h-5 ml-2 -mr-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contactUs" class="mt-16 p-12 mb-16">
-        <h2 class="text-xl font-semibold text-[#1B263B]">CONTACT ME</h2>
-        <p class="font-semibold text-[#415A77]">Hit me up and lets do a project together</p>
-        <section class="bg-white dark:bg-[#0D1B2A] mt-6">
-            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-                <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-center text-[#E0E1DD]">Get In Touch</h2>
-                <p class="mb-8 lg:mb-16 font-light text-center text-gray-500">Got any query? Want to collaborate on a project? Need details about my Business plan? Let me know.</p>
-                <div class="flex space-x-8">
-                    <div class="flex space-x-4 items-center">
-                        <h3 class="text-white text-lg">Email :</h3>
-                        <p class="text-gray-400">mureithiofficial@gmail.com</p>
-                    </div>
-                    <div class="flex space-x-4 items-center">
-                        <h3 class="text-white text-lg">Phone Number :</h3>
-                        <p class="text-gray-400"> +254 757 327 949</p>
-                    </div>
-                </div>
+      <h2 class="text-xl font-semibold text-[#1B263B]">CONTACT ME</h2>
+      <p class="font-semibold text-[#415A77]">
+        Hit me up and lets do a project together
+      </p>
+      <section class="bg-white dark:bg-[#0D1B2A] mt-6">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2
+            class="mb-4 text-3xl tracking-tight font-extrabold text-center text-[#E0E1DD]"
+          >
+            Get In Touch
+          </h2>
+          <p class="mb-8 lg:mb-16 font-light text-center text-gray-500">
+            Got any query? Want to collaborate on a project? Need details about
+            my Business plan? Let me know.
+          </p>
+          <div class="flex space-x-8">
+            <div class="flex space-x-4 items-center">
+              <h3 class="text-white text-lg">Email :</h3>
+              <p class="text-gray-400">mureithiofficial@gmail.com</p>
             </div>
-          </section>
+            <div class="flex space-x-4 items-center">
+              <h3 class="text-white text-lg">Phone Number :</h3>
+              <p class="text-gray-400">+254 757 327 949</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
 
     <section id="footer" class="mt-16 p-12">
-        
-<footer class="p-4 md:px-6 md:py-8">
-    <div class="sm:flex sm:items-center sm:justify-between">
-        <a href="" class="flex items-center mb-4 sm:mb-0">
-            <img src="assets/logo.png" alt="Logo" class="h-24">
-        </a>
-        <ul class="flex flex-wrap items-center mb-6 text-sm text-[#415A77] sm:mb-0">
+      <footer class="p-4 md:px-6 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <a href="" class="flex items-center mb-4 sm:mb-0">
+            <img src="assets/logo.png" alt="Logo" class="h-24" />
+          </a>
+          <ul
+            class="flex flex-wrap items-center mb-6 text-sm text-[#415A77] sm:mb-0"
+          >
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+              <a href="#" class="mr-4 hover:underline md:mr-6">About</a>
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+              <a href="#" class="mr-4 hover:underline md:mr-6"
+                >Privacy Policy</a
+              >
             </li>
             <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+              <a href="#" class="mr-4 hover:underline md:mr-6">Licensing</a>
             </li>
             <li>
-                <a href="#" class="hover:underline">Contact</a>
+              <a href="#" class="hover:underline">Contact</a>
             </li>
-        </ul>
-    </div>
-    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <span class="block text-sm text-gray-500 sm:text-center">© 3 <a href="https://flowbite.com/" class="hover:underline">BryanMureithi™</a>. All Rights Reserved.
-    </span>
-</footer>
-
+          </ul>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <span class="block text-sm text-gray-500 sm:text-center"
+          >© 3
+          <a href="https://flowbite.com/" class="hover:underline"
+            >BryanMureithi™</a
+          >. All Rights Reserved.
+        </span>
+      </footer>
     </section>
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
-<script src="main.js"></script>
-</body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
