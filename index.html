@@ -45,7 +45,9 @@
 
       <nav>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="flex flex-row items-center space-x-12">
+          <ul
+            class="flex flex-row sm:flex-col sm:top-4 items-center space-x-12"
+          >
             <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
               <a href="#Home" class="block">Home</a>
             </li>
@@ -73,7 +75,7 @@
     <main class="shadow-sm">
       <!--Hero Section-->
       <!--Used grids for this section to separate text from the image-->
-      <div class="grid grid-cols-4 gap-0 px-12">
+      <div class="grid grid-cols-4 sm:flex sm:flex-wrap gap-0 px-12">
         <div class="col-start-1 col-span-2 p-6 mt-16 pt-10">
           <h1 class="text-[#1B263B] w-96 font-semibold text-3xl">
             I create experiences that make people's lives simple.
@@ -116,7 +118,7 @@
             </a>
           </div>
         </div>
-        <div class="col-start-3 col-span-2">
+        <div class="col-start-3 col-span-2 sm:hidden">
           <!--Hero Image-->
           <div class="pb-8">
             <img
