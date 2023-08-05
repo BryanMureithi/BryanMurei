@@ -18,7 +18,9 @@
   </head>
   <body class="bg-[#E0E1DD]">
     <!--Navigation Bar-->
-    <header class="flex flex-row justify-between items-center px-12 shadow-md">
+    <header
+      class="flex flex-row bg-[#E0E1DD] justify-between items-center px-12 sticky top-0 z-10 shadow-md"
+    >
       <!--Logo-->
       <img src="assets/logo.png" alt="Logo" class="h-24" /><button
         data-collapse-toggle="navbar-default"
@@ -45,9 +47,7 @@
 
       <nav>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul
-            class="flex flex-row sm:flex-col sm:top-4 items-center space-x-12"
-          >
+          <ul class="flex flex-row sm:top-4 items-center space-x-12">
             <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
               <a href="#Home" class="block">Home</a>
             </li>
@@ -75,15 +75,21 @@
     <main class="shadow-sm">
       <!--Hero Section-->
       <!--Used grids for this section to separate text from the image-->
-      <div class="grid grid-cols-4 sm:flex sm:flex-wrap gap-0 px-12">
-        <div class="col-start-1 col-span-2 p-6 mt-16 pt-10">
-          <h1 class="text-[#1B263B] w-96 font-semibold text-3xl">
-            I create experiences that make people's lives simple.
+      <div class="h-screen flex justify-center gap-0 px-12">
+        <div class="p-6 mt-48 pt-10 flex flex-col items-center">
+          <h1
+            class="text-[#1B263B] w-6/12 font-semibold text-center text-4xl sm:2xl"
+          >
+            Bringing Ideas to Life Through Design and Code: The Portfolio of a
+            UI/UX Designer and Fullstack Developer
           </h1>
-          <p class="mt-4 text-md w-8/12 text-[#415A77]">
-            Hi, I’m Bryan, an aspiring Data Scientist and Front-end Web
-            Developer. I help fast growing startups to launch and grow their
-            brands.
+          <p class="mt-4 text-sm w-6/12 leading-6 text-center text-[#415A77]">
+            Welcome to my creative haven, where the art of user experience
+            collides with the magic of fullstack development. I am passionate
+            about crafting digital journeys that seamlessly blend aesthetics and
+            functionality. Join me on a visual and technical adventure that
+            showcases the harmonious synergy of a UI/UX designer and fullstack
+            developer.
           </p>
           <div class="mt-12 flex flex-row items-center space-x-8">
             <a
@@ -118,25 +124,18 @@
             </a>
           </div>
         </div>
-        <div class="col-start-3 col-span-2 sm:hidden">
-          <!--Hero Image-->
-          <div class="pb-8">
-            <img
-              src="assets/coding.svg"
-              class="dev w-full h-1/6"
-              alt="Programmer"
-            />
-          </div>
-        </div>
       </div>
     </main>
 
-    <section id="about" class="mt-16 px-12 mb-16 shadow-sm">
+    <section
+      id="about"
+      class="mt-16 max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24"
+    >
       <div class="">
         <h2 class="text-xl font-semibold text-[#1B263B]">ABOUT ME</h2>
         <p class="font-semibold text-[#415A77]">Read about my history.</p>
       </div>
-      <div class="mb-12 shadow-sm">
+      <div class="mb-12">
         <section class="bg-[#E0E1DD]">
           <div
             class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
@@ -221,12 +220,36 @@
               </h3>
               <h3 class="font-semi-bold text-gray-700">ICT Intern</h3>
               <p class="text-base w-9/12 font-normal text-[#415A77]">
-                Learnt about the Network Operations Centre(NOC) where all
-                networks, servers routers, switches and the data centre are
-                monitored. Did ICT support tasks where I helped out staff with
-                issues concerning computer hardware or software. Visited a data
-                center which has the servers containing data crucial to the
-                company.
+                - Installing and configuring computer hardware, software,
+                networks and systems. e.g. SAP, InCMS, IMS, Fortinet,
+                Forti-client, FortiNac e.t.c
+              </p>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                - Data Center Infrastructure and its maintenance e.g.
+                temperature maintenance, Fire precaution measures and Security.
+              </p>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                - Fiber Quality measuring and fault finding; familiarizing on
+                different fiber tools e.g. OTDR, fiber identifier, Light source.
+              </p>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                -System Application and Products (SAP): human resources,
+                finance, supply chain modules.
+              </p>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                - Prepaid and Postpaid; architecture of software like InCMS.
+              </p>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                - Troubleshooting and resolving issues with
+                software/hardware/network in a timely manner using the available
+                resources within the company.
+              </p>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                - Splicing and Installation of cables.
+              </p>
+              <p class="text-base w-9/12 font-normal text-[#415A77]">
+                - Device management and maintenance including printers, laptops
+                and desktops
               </p>
             </li>
           </ol>
