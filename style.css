@@ -11,8 +11,4 @@ body {
 }
 
 .hero {
-  background-image: url("./assets/bgg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
 }

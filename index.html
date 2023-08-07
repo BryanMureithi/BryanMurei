@@ -22,10 +22,11 @@
       class="flex flex-row bg-[#E0E1DD] justify-between items-center px-12 sticky top-0 z-10 shadow-md"
     >
       <!--Logo-->
-      <img src="assets/logo.png" alt="Logo" class="h-24" /><button
+      <img src="assets/logo.png" alt="Logo" class="h-24" />
+      <button
         data-collapse-toggle="navbar-default"
         type="button"
-        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
         aria-controls="navbar-default"
         aria-expanded="false"
       >
@@ -45,9 +46,11 @@
         </svg>
       </button>
 
-      <nav>
+      <nav class="">
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="flex flex-row sm:top-4 items-center space-x-12">
+          <ul
+            class="flex flex-col md:flex-row lg:flex-row sm:top-4 items-center space-x-12"
+          >
             <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
               <a href="#Home" class="block">Home</a>
             </li>
@@ -72,20 +75,20 @@
         </div>
       </nav>
     </header>
-    <main class="shadow-sm">
+    <main class="hero h-screen shadow-sm">
       <!--Hero Section-->
       <!--Used grids for this section to separate text from the image-->
-      <div class="h-screen flex justify-center gap-0 px-12">
+      <div class="flex justify-center gap-0 px-12">
         <div
           class="p-6 mt-48 pt-10 flex flex-col items-center mt-16 max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24"
         >
           <h1
-            class="text-[#1B263B] w-6/12 font-semibold text-center text-4xl sm:2xl"
+            class="text-[#1B263B] w-4/5 font-semibold text-center text-xl md:w-8/12 md:text-2xl lg:w-9/12 lg:text-4xl"
           >
             Bringing Ideas to Life Through Design and Code: The Portfolio of a
             UI/UX Designer and Fullstack Developer
           </h1>
-          <p class="mt-4 text-sm w-6/12 leading-6 text-center text-[#415A77]">
+          <p class="mt-4 text-sm w-10/12 leading-6 text-center text-[#415A77]">
             Welcome to my creative haven, where the art of user experience
             collides with the magic of fullstack development. I am passionate
             about crafting digital journeys that seamlessly blend aesthetics and
@@ -96,12 +99,12 @@
           <div class="mt-12 flex flex-row items-center space-x-8">
             <a
               href="#footer"
-              class="bg-[#1B263B] hover:bg-[#415A77] text-[#E0E1DD] text-sm px-5 py-3"
+              class="bg-[#1B263B] hover:bg-[#415A77] text-[#E0E1DD] text-sm px-4 py-2 lg:px-5 lg:py-3"
               >RESUME</a
             >
             <a
               href="#projects"
-              class="bg-transparent text-[#1B263B] text-sm p-3 border border-gray-500 hover:bg-[#1B263B] hover:text-[#E0E1DD]"
+              class="bg-transparent text-[#1B263B] text-sm px-4 py-2 lg:px-5 lg:py-3 border border-gray-500 hover:bg-[#1B263B] hover:text-[#E0E1DD]"
               >VIEW PROJECTS</a
             >
           </div>
@@ -109,19 +112,19 @@
             <a href="https://twitter.com/BryanMurei">
               <ion-icon
                 name="logo-twitter"
-                class="w-10 h-8 mr-3 text-[#1B263B] hover:text-[#415A77]"
+                class="w-8 h-6 lg:w-10 lg:h-8 mr-3 text-[#1B263B] hover:text-[#415A77]"
               ></ion-icon>
             </a>
             <a href="https://www.linkedin.com/in/bryan-mureithi-237b33225/">
               <ion-icon
                 name="logo-linkedin"
-                class="w-10 h-8 mr-3 text-[#1B263B] hover:text-[#415A77]"
+                class="w-8 h-6 lg:w-10 lg:h-8 mr-3 text-[#1B263B] hover:text-[#415A77]"
               ></ion-icon>
             </a>
             <a href="https://github.com/BryanMureithi">
               <ion-icon
                 name="logo-github"
-                class="w-10 h-8 text-[#1B263B] hover:text-[#415A77]"
+                class="w-8 h-6 lg:w-10 lg:h-8 text-[#1B263B] hover:text-[#415A77]"
               ></ion-icon>
             </a>
           </div>
